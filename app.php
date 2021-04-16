@@ -5,8 +5,9 @@ require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 
-$application = new Application();
+$app = new Application();
 
 // ... register commands
+$app->add(new App\SayHello());
 
-$application->run();
+$app->run();
