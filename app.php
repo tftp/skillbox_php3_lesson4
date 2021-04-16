@@ -9,4 +9,5 @@ $app = new Application();
 
 // ... register commands
 
+$app->add(new App\Guest());
 $app->run();
