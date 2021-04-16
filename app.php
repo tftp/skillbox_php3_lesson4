@@ -11,4 +11,5 @@ $app = new Application();
 $app->add(new App\SayHello());
 $app->add(new App\RepeatString());
 
+$app->add(new App\Guest());
 $app->run();
